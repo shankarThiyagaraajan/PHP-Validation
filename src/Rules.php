@@ -1,6 +1,6 @@
 <?php
 
-namespace hankarbala33/php-validation;
+namespace shankarbala33\php-validation;
 
 
 /**
