@@ -1,0 +1,19 @@
+{
+  "name": "shankarbala33/php-validation",
+  "type": "library",
+  "description": "Simple PHP Form Validator",
+  "keywords": ["Validation","Form Validation","PHP Form Validation"],
+  "license": "MIT",
+  "authors": [{
+    "name" : "Shankar Thiyagaraajan"
+  }
+  ],
+
+  "require": {
+    "php": "^5.5.9|^7.0"
+  },
+
+  "autoload": {
+    "psr-4": { "shankarbala33\\php-validation\\": "src" }
+  }
+}
