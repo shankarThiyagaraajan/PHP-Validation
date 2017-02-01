@@ -11,18 +11,6 @@ class Rules
 {
     public static function customer_address()
     {
-        // Example : 
-        // return [
-        //     'fname' => 'Required',
-        //     'lname' => 'Required',
-        //     'mobile' => 'Required',
-        //     'address1' => 'Required',
-        //     'address2' => 'Required',
-        //     'city' => 'Required',
-        //     'zipcode' => 'Required',
-        //     'country' => 'Required'
-        // ];
-        
         return [
             // Your Rules
             ];
