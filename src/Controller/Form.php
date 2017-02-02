@@ -3,7 +3,10 @@ namespace shankarbala33\php-validation\Controller;
 
 class Form{
 
-public function checker(Http $http){
+ /**
+  * Array $http List of Form Data.
+  */
+public static function validate_form($http){
 
  /** For New Address Validation */
         $error = Validator::validate($http, Rules::customer_address());
