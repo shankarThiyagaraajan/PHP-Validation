@@ -21,7 +21,7 @@ class Validator
         $error = array();
         foreach ($rules as $key => $rule) {
             if ($rule == 'Required') {
-                if (!$http->has($key)) {
+                if (!isset($http[$key]) {
                     $error[$key] = $rule;
                 }
             }
