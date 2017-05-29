@@ -9,7 +9,7 @@ namespace shankarbala33\php-validation\model;
 class Validator
 {
  
- /**
+   /**
      * To Validates the input with the given rules
      *
      * @param object $http of post data
@@ -18,10 +18,15 @@ class Validator
      */
     public static function validate($http, $rules)
     {
+        // Initiating Error component.
         $error = array();
+        // Loop to check error list.
         foreach ($rules as $key => $rule) {
+             // Check with "Field" is requierd or not.
             if ($rule == 'Required') {
+                // Sanity check with field exist.
                 if (!isset($http[$key]) {
+                    // To set error element.
                     $error[$key] = $rule;
                 }
             }
