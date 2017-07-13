@@ -15,7 +15,6 @@ PHP library for PHP Validation with simple validation of inputs.
       
 ### Validation
 
-     //[fname=>'Kumar']
      Form::validate_form($post_data);
      
      //Validation Output.
