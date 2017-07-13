@@ -18,10 +18,10 @@ PHP library for PHP Validation with simple validation of inputs.
      Form::validate_form($post_data);
      
      OUTPUT : 
-     [
-        ['success'] = false
-        ['error'] = ['age']
-     ]
+      [
+        'success' => false,
+        'error' => ['age']
+      ]
 ___
 #### For Powerful front end validation 
  Try [JavaScript Validator](https://github.com/global-source/javascript_form_validator)
