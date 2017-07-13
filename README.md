@@ -22,6 +22,9 @@ PHP library for PHP Validation with simple validation of inputs.
      ['success'] = false
      ['error'] = ['age']
      
+___
+#### For Powerful front end validation 
+ Try [JavaScript Validator](https://github.com/global-source/javascript_form_validator)
      
 ### License
 
