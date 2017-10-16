@@ -1,5 +1,5 @@
 <?php
-namespace shankarbala33\php-validation\Controller;
+namespace shankarThiyagaraajan\phpValidation\Controller;
 
 class Form{
 
