@@ -9,10 +9,14 @@ namespace shankarbala33\php-validation;
  */
 class Rules
 {
-    public static function customer_address()
+    /**
+     * Rule set for user's registration.
+     */
+    public static function user_registration()
     {
+        // Rule sets.
         return [
-            // Your Rules
+            // Your Custom Rules.
             ];
     }
 
